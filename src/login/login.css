@@ -1,0 +1,249 @@
+/* 
+.hii{
+  background-color: #808097;
+}
+  .form {
+    background-color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width:350px;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 50px;
+  text-align:center;
+    font-weight: bold;
+
+    margin-top: 30px;
+  }
+  
+
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    /* font-size: 50px; */
+    /* height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  } 
+ 
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+ .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  } 
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  } 
+  
+  
+  .submit {
+    
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 30px;
+    height: 40px;
+    margin-top: 38px;
+    outline: 0;
+    width: 60%;
+    font-style: italic;
+    background-color: #06b;
+  }
+  .btn{
+    padding-left: 100px;
+ 
+
+    
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+ 
+   
+
+
+  */
+  .hii{
+    background:rgba(0, 0, 0, 0.7)url(https://media.istockphoto.com/id/926538832/photo/shopping-lists-in-app-format.jpg?s=612x612&w=0&k=20&c=h18CZvn3yi12btPzX8RKMJK8PPsDKqX5z4OlKARqX_k=);
+  background-size:cover;
+  justify-content:center;
+  background-repeat:no-repeat;
+  background-blend-mode:darken;
+  
+  }
+ 
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    height: 50vh;
+    opacity: 80%;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 30px;
+   
+  }
+  
+  .input {
+    font-size: 15px;
+    padding: 10px;
+    border: none; 
+     border-bottom: 0.5px solid #ccc;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .cut {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 16px;
+    color: #aaa;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input:focus + .cut, .input:not(:placeholder-shown) + .cut {
+    border-bottom: 1px solid #0077c0;
+  }
+  
+  .input:focus + .cut + .placeholder, .input:not(:placeholder-shown) + .cut + .placeholder {
+    top: -15px;
+    font-size: 12px;
+    color: #0077c0;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .submit {
+    font-size: 16px;
+    /* padding: 10px 30px; */
+    border: none;
+    border-radius: 5px;
+    background-color: #0077c0;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+    position:fixed;
+  }
+  
+  .hello3 {
+    margin-top: 100px;
+    font-size: 14px;
+    color: #0077c0;
+    padding: 20px;
+  }
+  .login{
+    color: #ccc;
+  }
+   

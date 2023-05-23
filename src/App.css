@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -12,6 +13,24 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+ body{
+  /* background-color: lightblue; */
+   /* background-image: url("https://st2.depositphotos.com/2127851/7690/i/600/depositphotos_76900157-stock-photo-happy-young-woman-holding-paper.jpg");   */
+   background-size: 40%;
+   background-repeat: no-repeat;
+   /* color: black;  */
+   
+  
+   /* border-color: blue; */
+   /* border-radius: 1px;
+   width: 200vh;
+   background-position-x: center;  */
+   /* justify-content: center;
+   align-items: center;
+   text-align: center;  */
+   
+    /* min-height: 100vh; */
+  } 
 
 .App-header {
   background-color: #282c34;
