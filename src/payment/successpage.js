@@ -12,11 +12,12 @@ const CheckoutSuccess = () => {
     
 
   };
+  
 
-//   useEffect(() => {
+  useEffect(() => {
  
-//    localStorage.removeItem('cartItems');
-//  }, []);
+   localStorage.removeItem('cartItems');
+ }, []);
 
   return (
     <div className='success'>
